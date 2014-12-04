@@ -10,6 +10,8 @@ To get started, in the `main(String[] args)` method of Program.cs, update the fo
 3. `var archiveID = ` the archive you want to index the document into.  
 4. `var localFileName = ""` the name of the file on your local machine you want to upload and index.  
 
+NOTE: Requires .NET v4 and a version of VisualStudio running NuGet with NuGet Package Restore enabled.  
+
 Run the application!  
 
 The upload happens in 4 steps: 
