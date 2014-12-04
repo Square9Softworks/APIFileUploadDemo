@@ -11,16 +11,18 @@ namespace S9APIUploadDemo
 {
     class Program
     {
-        static RestClient ApiClient = new RestClient("http://localhost/gsportal");
+        static RestClient ApiClient = new RestClient("http://localhost/Square9Api"); //path to the website where the api is hosted
 
         static void Main(string[] args)
         {
             //windows auth
             ApiClient.Authenticator = new NtlmAuthenticator();
 
-            var databaseID = 1;
-            var archiveID = 3;
-            var localFileName = @"C:\bugs\tester.pdf";
+            var databaseID = 1;  //Database ID
+            var archiveID =  3;  //Archive ID
+
+            var localFileName = "tester.pdf"; //file to be uploaded
+
             var token = "";
             try
             {
