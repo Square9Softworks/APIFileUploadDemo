@@ -21,4 +21,4 @@ The upload happens in 4 steps:
 3. Index the document using the file that was uploaded, and some provided field data into a database/archive.  
 4. Release the license.  
 
-
+Enjoy! Please see the issues list for ideas on how to fork and contribute!
