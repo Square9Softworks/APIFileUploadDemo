@@ -15,8 +15,8 @@ namespace S9APIUploadDemo
 
         static void Main(string[] args)
         {
-            //windows auth
-            ApiClient.Authenticator = new NtlmAuthenticator();
+            //basic authentication
+            ApiClient.Authenticator = new HttpBasicAuthenticator("S9UserName", "S9Password");
 
             var databaseID = 1;  //Database ID
             var archiveID =  3;  //Archive ID
