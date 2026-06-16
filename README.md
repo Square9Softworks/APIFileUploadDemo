@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> This example project has been superseeded by [https://github.com/Square9Softworks/square9api-index-document-example](https://github.com/Square9Softworks/square9api-index-document-example)
+
+
 API File Upload Demo
 =================
 
